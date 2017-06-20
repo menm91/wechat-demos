@@ -3,3 +3,6 @@
 <navigator url="../demo2/demo2">
 <image src="../../images/xiaoshu.jpg" style="width:120px;height:120px;"></image>
 </navigator>
+
+<navigator url="../demo2/demo2?name=小明&age=23">小明</navigator>
+<navigator url="../demo2/demo2?name=小王">小王</navigator>
