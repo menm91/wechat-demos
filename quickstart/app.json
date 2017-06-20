@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#219bf3",
+    "navigationBarTextStyle": "#ff0",
+    "navigationBarTitleText": "menm91小程序",
+    "backgroundColor": "#f0f",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "debug":true,
+  "tabBar": {
+    "color": "#444",
+    "backgroundColor": "#e0e0e0",
+    "selectedColor": "#219fb3",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Index",
+      "iconPath":"images/ic_home.png",
+      "selectedIconPath":"images/ic_home_selected.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "Logs",
+      "iconPath":"images/ic_listing.png",
+      "selectedIconPath":"images/ic_listing_selected.png"
+    }]
+  }
+}

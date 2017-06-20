@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <text>Hello,{{name}}</text>
+
+  <!-- 基本的事件使用,就是通过给组件添加一个bind+事件名的属性,属性的值指向一个定义在当前页面对象中的js方法 -->
+  <!--<button bindtap="buttonTapHandler">点击我</button>-->
+
+  <!-- 事件冒泡 -->
+  <view catchtap="outerHandler" style="width:200px;height:200px;background-color:red;">
+    <view catchtap="innerHandler" style="width:100px;height:100px;background-color:blue;"></view>
+  </view>
+  <!-- catch+事件名,绑定事件,阻止冒泡 -->
+
+  <!-- 事件传参 -->
+  <button bindtap="tap2Handler" data-name="张三" data-hello-world="Hello World">点我</button>
+
+  <!-- 
+  1.事件的基本使用 bing[xxx] catch[xxx]
+  2.小程序中事件冒泡和HTML中处理不一样,这里是使用catch[xxx]
+  3.如果需要给事件处理函数指定参数只能通过dataset方式
+  -->
+</view>

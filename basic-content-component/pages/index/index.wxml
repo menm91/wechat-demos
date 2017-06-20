@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- icon text progress -->
+  <icon type="success" />
+
+  <icon type="success_no_circle" />
+
+<!-- text类似于HTML中的p标签,但是p标签不能嵌套 -->
+<!-- text主要是为了可以更好地控制页面内容 -->
+<!-- text还支持换行 -->
+  <text>这是一
+  段<text>文本</text>内容</text>
+
+<!-- 显示一个进度 -->
+<!-- show-info是用来控制是否显示具体数字的属性 -->
+  <progress percent="20" show-info/>
+
+  <progress percent="66" show-info active="{{true}}"/>
+</view>

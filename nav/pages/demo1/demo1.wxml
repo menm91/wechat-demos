@@ -1,0 +1,5 @@
+<!--pages/demo1/demo1.wxml-->
+<text>pages/demo1/demo1.wxml</text>
+<navigator url="../demo2/demo2">
+<image src="../../images/xiaoshu.jpg" style="width:120px;height:120px;"></image>
+</navigator>
