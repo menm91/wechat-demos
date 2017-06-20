@@ -6,3 +6,16 @@
 
 <navigator url="../demo2/demo2?name=小明&age=23">小明</navigator>
 <navigator url="../demo2/demo2?name=小王">小王</navigator>
+
+<!-- 默认跳转是可以回去的 -->
+<navigator url="../demo2/demo2" redirect>跳转不回去</navigator>
+
+<!-- 点击高亮 -->
+<navigator hover-class="my-hover">点我点我</navigator>
+
+<navigator hover-class="none">点我点我</navigator>
+
+<!-- 通过将鼠标变成小手形状,点击任何元素都可以高亮 -->
+<image src="../../images/xiaoshu.jpg" class="hover-img"></image>
+
+<button type="primary" catchtap="tapFunction">点我跳转</button>
